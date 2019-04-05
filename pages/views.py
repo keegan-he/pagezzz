@@ -14,3 +14,6 @@ class TestView(TemplateView):
 
 class ProjectsView(TemplateView):
     template_name = 'projects.html'
+
+class WhateverPage(TemplateView):
+    template_name = 'whatever.html'
